@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Homepage from '../src/Components/Pages/Homepage/Homepage'
 import About from '../src/Components/Pages/About/About'
-import Services from '../src/Components/Pages/Services/Services'
+
 import Contact from '../src/Components/Pages/Contact/Contact'
 import Mobile from './Components/Pages/Services/Mobile'
 import Software from './Components/Pages/Services/Software'
