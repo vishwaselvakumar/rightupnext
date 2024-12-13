@@ -7,10 +7,10 @@ import logo5 from "../../src/images/Features/f5.png";
 import logo6 from "../../src/images/Features/f6.png";
 import image1 from "../../src/images/Features/fb11.png";
 import image2 from "../../src/images/Features/fb22.png";
-import { inView, useAnimation, useInView, motion } from "framer-motion";
+import { useAnimation, useInView, motion } from "framer-motion";
 
 const Features = () => {
-  const { innerWidth: width, innerHeight: height } = window;
+  const { innerWidth: width } = window;
   const ref = useRef(null);
   const isInView = useInView(ref);
 
