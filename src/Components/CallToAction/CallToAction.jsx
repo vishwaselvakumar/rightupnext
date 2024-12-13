@@ -11,7 +11,7 @@ const CallToAction = () => {
         if(isInView) {
             mainControlls.start("visible")
         }
-    }, [isInView])
+    }, [])
   return (
     <div>
       <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
