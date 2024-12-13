@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import {motion, useInView, useAnimation} from 'framer-motion';
 
 const CallToAction = () => {
-    const {innerWidth: Width} = window;
+    // const {innerWidth: Width} = window;
     const ref = useRef();
     const isInView = useInView(ref)
     const mainControlls = useAnimation(isInView);
