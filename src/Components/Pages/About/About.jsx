@@ -3,10 +3,10 @@ import Navbar from "../../Navigation/Navbar";
 import Footer from "../../Footer/Footer";
 import { useAnimation, useInView, motion } from "framer-motion";
 import TeamImage from '../../../images/Team/team1.png'
-import TeamMember1 from "../../../images/Team/teamMember1.jpeg";
-import {VscGithubAlt} from 'react-icons/vsc'
-import {TfiTwitter} from 'react-icons/tfi'
-import {RxInstagramLogo} from 'react-icons/rx'
+// import TeamMember1 from "../../../images/Team/teamMember1.jpeg";
+// import {VscGithubAlt} from 'react-icons/vsc'
+// import {TfiTwitter} from 'react-icons/tfi'
+// import {RxInstagramLogo} from 'react-icons/rx'
 import ScrollToTop from '../../Pages/Services/Scrolltop'
 
 const About = () => {
