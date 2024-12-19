@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from ".././log.png"
+
+import logo from "../../images/Testimonials/logo11.png";
 
 
 const Footer = () => {
@@ -23,7 +24,7 @@ const Footer = () => {
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 px-5">
       <div>
         <div className="flex justify-center text-teal-600 sm:justify-start">
-         <img src={logo} alt="" className='w-12' />
+         <img src={logo} alt="" className='w-32' />
         </div>
 
         <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
@@ -277,7 +278,7 @@ const Footer = () => {
   </div>
 </footer>
 
-<footer class="bg-[#0b0e37] py-12 px-6 font-sans tracking-wide">
+{/* <footer class="bg-[#0b0e37] py-12 px-6 font-sans tracking-wide">
       <div class="flex flex-col items-center gap-6">
 
         <ul class="flex flex-wrap justify-center gap-x-7 gap-4">
@@ -323,7 +324,7 @@ const Footer = () => {
           <li><a href=" " class="hover:underline text-gray-200 text-base transition-all">Contact</a></li>
         </ul>
       </div>
-    </footer>
+    </footer> */}
    </>
   );
 }

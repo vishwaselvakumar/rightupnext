@@ -135,7 +135,7 @@ const Services = () => {
           {/* End Item */}
           <a
             className="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-none"
-            href="https://wa.me/9123509552" target='_blank'
+            href="https://wa.me/9159260221" target='_blank'
           >
             <svg
               className="shrink-0 size-4"

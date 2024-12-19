@@ -46,30 +46,30 @@ const Navbar = () => {
               >
                 Services
                 {servicesDropdown && (
-                  <ul className="absolute left-0 w-40 mt-2 bg-gray-800 text-white rounded-lg shadow-lg text-sm">
+                  <ul className="absolute left-0 w-[250px] mt-2 bg-gray-800 text-white rounded-lg shadow-lg text-sm">
                     <li className="p-2 hover:bg-blue-500">
                       <Link to="/mobile">Mobile Application</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/software">Software Development</Link>
+                      <Link to="/software">Web Software Development</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/seo">Digital Marketing & SEO</Link>
+                      <Link to="/seo">Digital Marketing | SEO</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/iot">IoT Projects</Link>
+                      <Link to="/iot">IoT</Link>
                     </li>
-                    <li className="p-2 hover:bg-blue-500">
+                    {/* <li className="p-2 hover:bg-blue-500">
                       <Link to="/custom">Software Customizations</Link>
+                    </li> */}
+                    <li className="p-2 hover:bg-blue-500">
+                      <Link to="/graphics">UI UX Design</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/graphics">Graphics Designing</Link>
+                      <Link to="/ar">AR | VR Services</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/ar">AR & VR Services</Link>
-                    </li>
-                    <li className="p-2 hover:bg-blue-500">
-                      <Link to="/animation">Animation and Video Production</Link>
+                      <Link to="/animation">Animation | Video Production</Link>
                     </li>
                   </ul>
                 )}
@@ -79,18 +79,19 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="flex items-center">
+              <Link to="/contact">
               <button
                 type="button"
                 className="bg-blue-600 px-4 py-2 text-white rounded-xl mr-2 hover:bg-blue-500"
               >
                 Get Started
-              </button>
-              <button
+              </button></Link>
+              {/* <button
                 type="button"
                 className="text-black border py-2 font-medium rounded-lg ml-2 text-sm px-4 hover:bg-blue-300/10"
               >
                 Login
-              </button>
+              </button> */}
             </div>
           </div>
         </div> 
@@ -117,19 +118,19 @@ const Navbar = () => {
                       <Link to="/mobile">Mobile Application</Link>
                     </li>
                     <li className="p-2 text-center hover:bg-blue-500">
-                      <Link to="/software">Software Development</Link>
+                      <Link to="/software">Web Software Development</Link>
                     </li>
                     <li className="p-2 text-center hover:bg-blue-500">
-                      <Link to="/seo">Digital Marketing & SEO</Link>
+                      <Link to="/seo">Digital Marketing | SEO</Link>
                     </li>
                     <li className="p-2 text-center hover:bg-blue-500">
-                      <Link to="/iot">IoT Projects</Link>
+                      <Link to="/iot">IoT </Link>
                     </li>
                     <li className="p-2 text-center hover:bg-blue-500">
-                      <Link to="/graphics">Graphics Designing</Link>
+                      <Link to="/graphics">UI UX Designs</Link>
                     </li>
                     <li className="p-2 text-center hover:bg-blue-500">
-                      <Link to="/ar">AR & VR Services</Link>
+                      <Link to="/ar">AR | VR Services</Link>
                     </li>
                     <li className="p-2 text-center hover:bg-blue-500">
                       <Link to="/animation">Animation</Link>
@@ -150,7 +151,7 @@ const Navbar = () => {
                   className="w-14 ml-8 mt-4 flex"
                 />
                 <p className="my-auto ml-4 text-black font-semibold">Dheepan</p>
-                <p className="my-auto ml-2 text-black font-semibold">Smith</p>
+                <p className="my-auto ml-2 text-black font-semibold">Jeevithkar</p>
               </div>
             </div>
             <div className="flex justify-center">
