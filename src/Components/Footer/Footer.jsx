@@ -220,7 +220,7 @@ const Footer = () => {
               >
               
 
-                <span className="flex-1 text-gray-700">rightupnextinfo@gmail.com</span>
+                <span className="flex-1 text-gray-700"></span>
               </a>
             </li>
 
