@@ -1,6 +1,9 @@
 import React ,{useState}from "react";
 import Navbar from "../../Navigation/Navbar";
 import Footer from "../../Footer/Footer";
+import buddy from "../../../partner/buddy.png"
+import app from "../../../partner/app1.png"
+import ScrollToTop from "../Services/Scrolltop";
 
 const Contact = () => {
 
@@ -34,6 +37,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
+      <ScrollToTop/>
       {/* contact start */}
       <div className="max-w-screen font-poppins overflow-hidden ">
         <section class="relative z-10 bg-gradient-to-br from-blue-100  py-20  sm:px-20 sm:py-40 ">
@@ -110,7 +114,7 @@ const Contact = () => {
                         Email Address
                       </h4>
                       <p class="text-body-color text-base">
-                      rightupnextinfo@gmail.com
+                      rightupnext.innovations@gmail.com
                       </p>
                     </div>
                   </div>
@@ -1028,23 +1032,19 @@ const Contact = () => {
         <div class="container mx-auto sm:-mt-10">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">
-              <div class="flex flex-wrap items-center justify-center">
+              {/* <div class="flex flex-wrap items-center justify-center">
                 <a
                   href="javascript:void(0)"
                   class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
                 >
-                  <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
-                    alt="image"
-                    class="h-10 w-full"
-                  />
+                 <img src={buddy} alt="" />
                 </a>
                 <a
                   href="javascript:void(0)"
                   class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/lineicons.svg"
+                    src={app}
                     alt="image"
                     class="h-10 w-full"
                   />
@@ -1069,7 +1069,21 @@ const Contact = () => {
                     class="h-10 w-full"
                   />
                 </a>
+              </div> */}
+
+              <div className="text-6xl font-bold text-center sm:m-5">
+                Road map for your Businuss 
               </div>
+              <div className="text-center mt-7 mb-5">
+                <a href="https://wa.me/9159260221" target="_blank">
+              <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+Join Us now
+<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+</svg>
+</button>
+</a>
+</div>
             </div>
           </div>
         </div>
