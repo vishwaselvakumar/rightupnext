@@ -1,5 +1,6 @@
 import React from 'react'
 import {BsFillCheckCircleFill} from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 
 const Card = ({ standOutBg, marginMiddle, Package, Price, image,Feature1,Feature2,Feature3,Feature4,Feature5,Feature6, iconColor1,iconColor2,iconColor3,iconColor4,iconColor5,iconColor6, buttonBg,buttonTextColor,hoverBgButton  }) => {
@@ -40,9 +41,11 @@ const Card = ({ standOutBg, marginMiddle, Package, Price, image,Feature1,Feature
           <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor6}`} />
         </p>
       </div>
+      <Link to="/contact">
       <button className={`justify-center flex mx-auto w-[200px] ${buttonBg} ${hoverBgButton} ${buttonTextColor} rounded-md font-medium my-6 py-3`}>
         Get a Quote
       </button>
+      </Link>
     </div>
   );
 };

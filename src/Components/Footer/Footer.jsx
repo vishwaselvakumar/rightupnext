@@ -1,6 +1,7 @@
 import React from 'react'
 
 import logo from "../../images/Testimonials/logo11.png";
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -157,23 +158,26 @@ const Footer = () => {
           <p className="text-lg font-medium text-gray-900">Our Services</p>
 
           <ul className="mt-8 space-y-4 text-sm">
+            
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="/software">
                 Web Development
               </a>
             </li>
-
+            
+            
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Mobile Applications </a>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="/mobile">Mobile Applications </a>
             </li>
-
+           
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Digital Marketing </a>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="/seo"> Digital Marketing </a>
             </li>
-
+           
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Google Ads </a>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="/graphics"> UI UX </a>
             </li>
+            
           </ul>
         </div>
 
