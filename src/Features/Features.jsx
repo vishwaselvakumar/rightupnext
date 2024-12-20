@@ -42,7 +42,7 @@ const Features = () => {
                 <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                   <div>
                     <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
-                      Inovation Begins Here
+                      Innovation Begins Here
                     </h3>
                     <p className="mt-3 text-lg ">
                       Unleash business growth with advanced technology
@@ -207,7 +207,7 @@ const Features = () => {
                 <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                   <div>
                     <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
-                      Inovation Begins Here
+                      Innovation Begins Here
                     </h3>
                     <p className="mt-3 text-lg ">
                       Unleash business growth with advanced technology

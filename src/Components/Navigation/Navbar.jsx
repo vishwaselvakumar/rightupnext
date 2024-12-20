@@ -30,8 +30,8 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden sm:flex justify-between items-center w-full">
-            <ul className="flex">
+          <div className="hidden sm:flex justify-between items-center w-full ml-10">
+            <ul className="flex ml-16">
               <li className="p-2 mr-4 text-black hover:text-blue-400 cursor-pointer">
                 <Link to="/">Home</Link>
               </li>
@@ -48,10 +48,10 @@ const Navbar = () => {
                 {servicesDropdown && (
                   <ul className="absolute left-0 w-[250px] mt-2 bg-gray-800 text-white rounded-lg shadow-lg text-sm">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/mobile">Mobile Application</Link>
+                      <Link to="/mobile">WEB | Mobile Application</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/software">Web Software Development</Link>
+                      <Link to="/software">Custom Software Development</Link>
                     </li>
                     <li className="p-2 hover:bg-blue-500">
                       <Link to="/seo">Digital Marketing | SEO</Link>
