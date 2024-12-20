@@ -47,30 +47,44 @@ const Navbar = () => {
                 Services
                 {servicesDropdown && (
                   <ul className="absolute left-0 w-[250px] mt-2 bg-gray-800 text-white rounded-lg shadow-lg text-sm">
+                     <Link to="/mobile">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/mobile">WEB | Mobile Application</Link>
+                     WEB | Mobile Application
                     </li>
+                    </Link>
+                    <Link to="/software">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/software">Custom Software Development</Link>
+                      Custom Software Development
                     </li>
+                    </Link>
+                    <Link to="/seo">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/seo">Digital Marketing | SEO</Link>
+                      Digital Marketing | SEO
                     </li>
+                    </Link>
+                    <Link to="/contact">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/iot">IoT</Link>
+                      IoT
                     </li>
+                    </Link>
                     {/* <li className="p-2 hover:bg-blue-500">
                       <Link to="/custom">Software Customizations</Link>
                     </li> */}
+                    <Link to="/graphics">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/graphics">UI UX Design</Link>
+                      UI UX Design
                     </li>
+                    </Link>
+                    <Link to="/ar">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/ar">AR | VR Services</Link>
+                   AR | VR Services
                     </li>
+                    </Link>
+                    <Link to="/animation">
                     <li className="p-2 hover:bg-blue-500">
-                      <Link to="/animation">Animation | Video Production</Link>
+                      Animation | Video Production
                     </li>
+                    </Link>
                   </ul>
                 )}
               </li>
