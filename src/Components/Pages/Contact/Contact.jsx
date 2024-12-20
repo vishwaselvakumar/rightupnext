@@ -1072,7 +1072,7 @@ const Contact = () => {
               </div> */}
 
               <div className="text-6xl font-bold text-center sm:m-5">
-                Road map for your Businuss 
+                Road map for your Business 
               </div>
               <div className="text-center mt-7 mb-5">
                 <a href="https://wa.me/9159260221" target="_blank">
