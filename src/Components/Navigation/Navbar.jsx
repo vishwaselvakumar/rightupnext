@@ -157,7 +157,7 @@ const Navbar = () => {
               </li>
             </ul>
             {/* Profile Section */}
-            <div className="bg-gray-200/50 h-[1px] w-[85%] ml-[-10px]">
+            {/* <div className="bg-gray-200/50 h-[1px] w-[85%] ml-[-10px]">
               <div className="flex cursor-pointer">
                 <img
                   src={profileImage}
@@ -167,7 +167,7 @@ const Navbar = () => {
                 <p className="my-auto ml-4 text-black font-semibold">Dheepan</p>
                 <p className="my-auto ml-2 text-black font-semibold">Jeevithkar</p>
               </div>
-            </div>
+            </div> */}
             <div className="flex justify-center">
               <p className="mt-[25px] text-gray-100/30 text-sm">
                 All Rights Reserved - LevelUP Solutions
