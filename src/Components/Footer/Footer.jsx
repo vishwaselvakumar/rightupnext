@@ -287,7 +287,7 @@ const Footer = () => {
 <footer class="bg-blue-500 py-8 px-8 font-[sans-serif] tracking-wide mt-16">
       <div class="relative max-w-screen-xl mx-auto">
         <div class="bg-blue-600 gap-3 rounded-md flex flex-wrap items-center justify-between sm:px-8 max-sm:px-4 py-4 absolute top-[-66px] w-full">
-          <h6 class="text-white sm:text-xl max-sm:text-base font-semibold">Kickstart Your Career Today</h6>
+          <h6 class="text-white sm:text-xl max-sm:text-base font-semibold">Kickstart Your Business Today</h6>
           <a href="/contact">
           <button type='button'
             class="px-4 py-2 text-sm rounded-full text-blue-600 gap-2 bg-white">Get
@@ -346,7 +346,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href='javascript:void(0)'>
+                <a href='https://www.linkedin.com/company/right-upnext-innovations/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3Bp4gCZfoGThSADoDJOJ1I1g%3D%3D' target='_blank'>
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 112.196 112.196">
                     <circle cx="56.098" cy="56.097" r="56.098" fill="#007ab9" data-original="#007ab9" />
                     <path fill="#fff" d="M89.616 60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118-3.705 0-5.906 2.491-6.878 4.903-.353.862-.444 2.059-.444 3.268v22.524h-13.41s.18-36.546 0-40.329h13.411v5.715c-.027.045-.065.089-.089.132h.089v-.132c1.782-2.742 4.96-6.662 12.085-6.662 8.822 0 15.436 5.764 15.436 18.149zm-54.96-36.642c-4.587 0-7.588 3.011-7.588 6.967 0 3.872 2.914 6.97 7.412 6.97h.087c4.677 0 7.585-3.098 7.585-6.97-.089-3.956-2.908-6.967-7.496-6.967zm-6.791 59.77H41.27v-40.33H27.865v40.33z" data-original="#f1f2f2" />
@@ -376,14 +376,14 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href='javascript:void(0)'>
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1227 1227">
                     <path d="M613.5 0C274.685 0 0 274.685 0 613.5S274.685 1227 613.5 1227 1227 952.315 1227 613.5 952.315 0 613.5 0z" data-original="#000000" />
                     <path fill="#fff" d="m680.617 557.98 262.632-305.288h-62.235L652.97 517.77 470.833 252.692H260.759l275.427 400.844-275.427 320.142h62.239l240.82-279.931 192.35 279.931h210.074L680.601 557.98zM345.423 299.545h95.595l440.024 629.411h-95.595z" data-original="#ffffff" />
                   </svg>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

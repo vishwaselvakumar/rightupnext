@@ -17,7 +17,7 @@ const Ar = () => {
       {/* Title */}
       <div className="max-w-3xl mb-10 lg:mb-14">
         <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-         AR / VR  Solutions
+         AR | VR  Solutions
         </h2>
         <p className="mt-1 text-neutral-400">
         Right UpNext IT Solutions specializes in delivering realistic AR and VR experiences across all types of devices. Using cutting-edge tools, we create high-quality, user-centric solutions that effectively engage your target audience and accelerate your business growth. 

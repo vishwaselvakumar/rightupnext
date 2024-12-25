@@ -17,7 +17,7 @@ const Graphics = () => {
       {/* Title */}
       <div className="max-w-3xl mb-10 lg:mb-14">
         <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-         Graphics Applications 
+         User Interface / User Experience 
         </h2>
         <p className="mt-1 text-neutral-400">
           
