@@ -62,7 +62,7 @@ const Navbar = () => {
                       Digital Marketing | SEO
                     </li>
                     </Link>
-                    <Link to="/contact">
+                    <Link to="/iot">
                     <li className="p-2 hover:bg-blue-500">
                       IoT
                     </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     </li> */}
                     <Link to="/graphics">
                     <li className="p-2 hover:bg-blue-500">
-                      UI UX Design
+                      UI / UX Design
                     </li>
                     </Link>
                     <Link to="/ar">

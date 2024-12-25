@@ -17,7 +17,7 @@ const Seo = () => {
       {/* Title */}
       <div className="max-w-3xl mb-10 lg:mb-14">
         <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-         Search Engine Optimization
+        Digital Marketing  |  Search Engine Optimization
         </h2>
         <p className="mt-1 text-neutral-400">
         In today's digital age, the most effective way to reach your 
