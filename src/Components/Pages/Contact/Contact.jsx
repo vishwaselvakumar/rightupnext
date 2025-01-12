@@ -72,7 +72,7 @@ const Contact = () => {
                         Our Location
                       </h4>
                       <p class="text-body-color text-base">
-                        Sowripalayam ,  Coimbatore
+                        Coimbatore
                       </p>
                     </div>
                   </div>

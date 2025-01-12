@@ -315,13 +315,14 @@ const Footer = () => {
                 Design</a></li>
               <li><a href="seo" class="text-white hover:text-gray-300 text-base">Digital
                 Marketing</a></li>
+                <li><a href="seo" class="text-white hover:text-gray-300 text-base">Animation | Video Production</a></li>
             </ul>
           </div>
 
           <div>
             <h4 class="text-lg font-semibold mb-6 text-white">Contact Us</h4>
             <ul class="space-y-4">
-              <li class="text-white text-base">Sowripalayam,</li>
+              {/* <li class="text-white text-base">Sowripalayam,</li> */}
               <li class="text-white text-base">Coimbatore</li>
               <li class="text-white text-base">
   <a href="mailto:rightupnext.innovations@gmail.com" class="text-white">rightupnext.innovations@gmail.com</a>
