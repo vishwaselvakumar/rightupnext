@@ -112,7 +112,7 @@ const Navbar = () => {
 
         {/* Mobile Dropdown */}
         {open && (
-          <div className="h-[19rem]">
+          <div className="h-[13rem]">
             <ul>
               <li className="text-black hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4 pt-6">
                 <Link to="/">Home</Link>
