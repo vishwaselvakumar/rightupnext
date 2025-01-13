@@ -17,7 +17,7 @@ const CardComponent = () => {
   }, [isInView]);
 
   return (
-    <div className="max-w-screen overflow-x-hidden font-poppins">
+    <div className="max-w-screen overflow-x-hidden font-poppins overflow-hidden">
       <div className="w-full pt-[100px] px-4 bg-white -mt-28">
         <div className="flex justify-center">
           <h2 className="text-3xl font-bold text-center sm:text-5xl mt-[6%] text-black">

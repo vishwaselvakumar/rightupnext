@@ -284,7 +284,7 @@ const Footer = () => {
 
 
 
-<footer class="bg-blue-500 py-8 px-8 font-[sans-serif] tracking-wide mt-16">
+<footer class="bg-blue-200 py-8 px-8 font-[sans-serif] tracking-wide mt-16">
       <div class="relative max-w-screen-xl mx-auto">
         <div class="bg-blue-600 gap-3 rounded-md flex flex-wrap items-center justify-between sm:px-8 max-sm:px-4 py-4 absolute top-[-66px] w-full">
           <h6 class="text-white sm:text-xl max-sm:text-base font-semibold">Kickstart Your Business Today</h6>
@@ -301,35 +301,35 @@ const Footer = () => {
             <div className='mb-8'>
             <img src={logo} alt="" width={230} />
             </div>
-            <p class="text-white text-base">Join us on our journey as a leading IT and digital company, transforming ideas into innovative solutions that drive business success.</p>
+            <p class="text-black text-base">Join us on our journey as a leading IT and digital company, transforming ideas into innovative solutions that drive business success.</p>
           </div>
 
           <div>
-            <h4 class="text-lg font-semibold mb-6 text-white">Services</h4>
+            <h4 class="text-lg font-semibold mb-6 text-black">Services</h4>
             <ul class="space-y-4">
-              <li><a href="/software" class="text-white hover:text-gray-300 text-base">Web
+              <li><a href="/software" class="text-black hover:text-gray-300 text-base">Web
                 Development</a></li>
-              <li><a href="/mobile" class="text-white hover:text-gray-300 text-base">Mobile App
+              <li><a href="/mobile" class="text-black hover:text-gray-300 text-base">Mobile App
                 Development</a></li>
-              <li><a href="graphics" class="text-white hover:text-gray-300 text-base">UI/UX
+              <li><a href="graphics" class="text-black hover:text-gray-300 text-base">UI/UX
                 Design</a></li>
-              <li><a href="seo" class="text-white hover:text-gray-300 text-base">Digital
+              <li><a href="seo" class="text-black hover:text-gray-300 text-base">Digital
                 Marketing</a></li>
-                <li><a href="seo" class="text-white hover:text-gray-300 text-base">Animation | Video Production</a></li>
+                <li><a href="seo" class="text-black hover:text-gray-300 text-base">Animation | Video Production</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 class="text-lg font-semibold mb-6 text-white">Contact Us</h4>
+            <h4 class="text-lg font-semibold mb-6 text-black">Contact Us</h4>
             <ul class="space-y-4">
               {/* <li class="text-white text-base">Sowripalayam,</li> */}
-              <li class="text-white text-base">Coimbatore</li>
-              <li class="text-white text-base">
-  <a href="mailto:rightupnext.innovations@gmail.com" class="text-white">rightupnext.innovations@gmail.com</a>
+              <li class="text-black text-base">Coimbatore</li>
+              <li class="text-black text-base">
+  <a href="mailto:rightupnext.innovations@gmail.com" class="text-black">rightupnext.innovations@gmail.com</a>
 </li>
 
 <li class="text-white text-base">
-  <a href="https://wa.me/919159260221" target="_blank" class="text-white">
+  <a href="https://wa.me/919159260221" target="_blank" class="text-black">
     +91 9159260221
   </a>
 </li>
@@ -337,7 +337,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 class="text-lg font-semibold mb-6 text-white">Follow Us</h4>
+            <h4 class="text-lg font-semibold mb-6 text-black">Follow Us</h4>
             <ul class="flex flex-wrap gap-4">
               <li>
                 <a href='/contact'>
