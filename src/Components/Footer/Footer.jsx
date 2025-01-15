@@ -307,15 +307,15 @@ const Footer = () => {
           <div>
             <h4 class="text-lg font-semibold mb-6 text-black">Services</h4>
             <ul class="space-y-4">
-              <li><a href="/software" class="text-black hover:text-gray-300 text-base">Web
+              <li><a href="/software" class="text-black hover:text-white text-base">Web
                 Development</a></li>
-              <li><a href="/mobile" class="text-black hover:text-gray-300 text-base">Mobile App
+              <li><a href="/mobile" class="text-black hover:text-white text-base">Mobile App
                 Development</a></li>
-              <li><a href="graphics" class="text-black hover:text-gray-300 text-base">UI/UX
+              <li><a href="graphics" class="text-black hover:text-white text-base">UI/UX
                 Design</a></li>
-              <li><a href="seo" class="text-black hover:text-gray-300 text-base">Digital
+              <li><a href="seo" class="text-black hover:text-white text-base">Digital
                 Marketing</a></li>
-                <li><a href="seo" class="text-black hover:text-gray-300 text-base">Animation | Video Production</a></li>
+                <li><a href="graphics" class="text-black hover:text-white text-base">Animation | Video Production</a></li>
             </ul>
           </div>
 
